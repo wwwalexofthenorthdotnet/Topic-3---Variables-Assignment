@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             int roomNumber, graduationYear, cicleRadius;
-            double coursePrice, pi;
+            double coursePrice, pi, sideA, sideB, hypotenuse;
             string courseName, firstName, lastName;
 
             roomNumber = 29;
@@ -16,6 +16,8 @@
             graduationYear = 2027;
             cicleRadius = 15; //cm
             pi = 3.14159;
+            sideA = 3;
+            sideB = 4;
 
             //This diplays the course information
             Console.WriteLine("This is room #" + roomNumber);
@@ -28,7 +30,9 @@
             //This finds the area of a circle
             Console.WriteLine("The area of your circle is: " + (pi * Math.Pow(cicleRadius, 2)) .ToString("0.0"));
 
-            //Do pythagorean theorem or something
+            //Solves for hypotenuse
+            Console.WriteLine();
+            Console.WriteLine("The hypotenuse is equal to: " + (hypotenuse = (Math.Pow(sideA, 2)) + (Math.Pow(sideB, 2))));
         }
     }
 }
