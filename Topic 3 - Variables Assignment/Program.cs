@@ -32,7 +32,7 @@
 
             //Solves for hypotenuse
             Console.WriteLine();
-            Console.WriteLine("The hypotenuse is equal to: " + (hypotenuse = (Math.Pow(sideA, 2)) + (Math.Pow(sideB, 2))));
+            Console.WriteLine("The hypotenuse is equal to: " + Math.Sqrt((hypotenuse = (Math.Pow(sideA, 2)) + (Math.Pow(sideB, 2)))));
         }
     }
 }
